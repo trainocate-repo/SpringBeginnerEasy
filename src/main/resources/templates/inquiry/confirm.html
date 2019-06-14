@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8">
+<title th:text="${title}">Insert title here</title>
+</head>
+<body>
+<h1 th:text="${title}">仮のタイトル</h1>
+<p>入力内容をご確認ください</p>
+<p th:text="${inquiryForm.name}"></p>
+<div th:object="${inquiryForm}">
+<p th:text="*{name}"></p>
+<p th:text="*{email}"></p>
+<p th:text="*{contents}"></p>
+<form method="post" action="#" th:action="@{/inquiry}">
+	<input type="hidden" name="name" th:value="*{name}">
+	<input type="hidden" name="email" th:value="*{email}">
+	<input type="hidden" name="contents" th:value="*{contents}">
+	<input type="submit" value="戻る">
+</form>
+<form method="post" action="#" th:action="@{/inquiry/complete}">
+	<input type="hidden" name="name" th:value="*{name}">
+	<input type="hidden" name="email" th:value="*{email}">
+	<input type="hidden" name="contents" th:value="*{contents}">
+	<input type="submit" value="Complete">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title th:text="${title}">Insert title here</title>
+</head>
+<body>
+<div th:replace="~{block/header::headerA}"></div>
+<h1 th:text="${title}">仮のタイトル</h1>
+<table>
+	<tr>
+		<th>id</th><th>name</th><th>email</th><th>contents</th><th>datetime</th>
+	</tr>
+	<tr th:each="inquiry : ${inquiryList}">
+		<td th:text="${inquiry.id}">1</td>
+		<td th:text="${inquiry.name}"></td>
+		<td th:text="${inquiry.email}"></td>
+		<td th:text="${inquiry.contents}"></td>
+		<td th:text="${inquiry.created}"></td>
+	</tr>
+</table>
+</body>
+</html>
