@@ -26,7 +26,7 @@ import com.example.demo.service.InquiryNotFoundException;
  */
 public class InquiryController {
 	
-	private final InquiryServiceImpl inquiryService;
+// 	private final InquiryServiceImpl inquiryService;
 	
 	//Add an annotation here ここにアノテーションを追加
 // 	public InquiryController(InquiryServiceImpl inquiryService){
