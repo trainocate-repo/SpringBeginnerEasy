@@ -18,7 +18,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.demo.entity.Inquiry;
 import com.example.demo.service.InquiryNotFoundException;
-// import com.example.demo.service.InquiryServiceImpl;
+import com.example.demo.service.InquiryServiceImpl;
 
 /*
  * Add annotations here
