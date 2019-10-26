@@ -18,7 +18,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.demo.entity.Inquiry;
 import com.example.demo.service.InquiryNotFoundException;
-import com.example.demo.service.InquiryServiceImpl;
+// import com.example.demo.service.InquiryServiceImpl;
 
 /*
  * Add annotations here
@@ -29,9 +29,9 @@ public class InquiryController {
 	private final InquiryServiceImpl inquiryService;
 	
 	//Add an annotation here ここにアノテーションを追加
-	public InquiryController(InquiryServiceImpl inquiryService){
-		this.inquiryService = inquiryService;
-	}
+// 	public InquiryController(InquiryServiceImpl inquiryService){
+// 		this.inquiryService = inquiryService;
+// 	}
 	
 	@GetMapping
 	public String index(Model model) {
