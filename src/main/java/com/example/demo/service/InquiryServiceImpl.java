@@ -10,7 +10,6 @@ import com.example.demo.repository.InquiryDao;
 
 /*
  * Add an annotation here
- * ここにアノテーションを追加
  */
 public class InquiryServiceImpl implements InquiryService{
 
@@ -28,7 +27,6 @@ public class InquiryServiceImpl implements InquiryService{
 
 	
 //  This method is used in the latter chapter
-//  こちらは後の章で使用します
 //	@Override
 //	public void update(Inquiry inquiry) {
 //		
