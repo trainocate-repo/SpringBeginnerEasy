@@ -22,13 +22,12 @@ import com.example.demo.service.InquiryServiceImpl;
 
 /*
  * Add annotations here
- * ここにアノテーションを追加
  */
 public class InquiryController {
 	
 // 	private final InquiryServiceImpl inquiryService;
 	
-	//Add an annotation here ここにアノテーションを追加
+	//Add an annotation here 
 // 	public InquiryController(InquiryServiceImpl inquiryService){
 // 		this.inquiryService = inquiryService;
 // 	}
@@ -42,7 +41,7 @@ public class InquiryController {
 	}
 	
 	@GetMapping("/form")
-	public String form(/*Add parameters. 引数を追加*/) {
+	public String form(/*Add parameters. */) {
 		
 		return "inquiry/form";
 	}
@@ -55,7 +54,7 @@ public class InquiryController {
 	
 	
 	@PostMapping("/confirm")
-	public String confirm(/*Add parameters. 引数を追加*/) {
+	public String confirm(/*Add parameters. */) {
 
 		//hands-on
 		
@@ -63,12 +62,12 @@ public class InquiryController {
 	}
 	
 	@PostMapping("/complete")
-	public String complete(/*Add parameters. 引数を追加*/) {
+	public String complete(/*Add parameters. */) {
 		
 		//hands-on
 		
 		//redirect
-		//リダイレクト処理の追加
+		
 		return "";
 	}
 	
