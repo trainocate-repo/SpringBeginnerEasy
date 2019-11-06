@@ -9,16 +9,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /*
  * Add annotations here
- * ここにアノテーションを追加
  */
 public class SampleController {
 	
-	private final JdbcTemplate jdbcTemplate;
+// 	private final JdbcTemplate jdbcTemplate;
 
-	//Add an annotation here ここにアノテーションを追加
-	public SampleController(JdbcTemplate jdbcTemplate) {
-		this.jdbcTemplate = jdbcTemplate;
-	}
+// 	//Add an annotation here 
+// 	public SampleController(JdbcTemplate jdbcTemplate) {
+// 		this.jdbcTemplate = jdbcTemplate;
+// 	}
 	
 	@GetMapping
 	public String test(Model model) {
