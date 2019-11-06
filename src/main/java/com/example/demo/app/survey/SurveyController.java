@@ -21,7 +21,6 @@ import com.example.demo.service.SurveyServiceImpl;
 
 /*
  * Add annotations here
- * ここにアノテーションを追加
  */
 public class SurveyController {
 	
@@ -41,7 +40,7 @@ public class SurveyController {
 	}
 	
 	@GetMapping("/form")
-	public String form(/*Add parameters 引数を追加*/) {
+	public String form(/*Add parameters.*/) {
 		
 		//hands-on
 		
@@ -58,7 +57,7 @@ public class SurveyController {
 	
 	
 	@PostMapping("/confirm")
-	public String confirm(/*Add parameters 引数を追加*/) {
+	public String confirm(/*Add parameters.*/) {
 		
 		//hands-on
 		
@@ -66,7 +65,7 @@ public class SurveyController {
 	}
 	
 	@PostMapping("/complete")
-	public String complete(/*Add parameters 引数を追加*/) {
+	public String complete(/*Add parameters.*/) {
 		
 		//hands-on
 		
