@@ -36,7 +36,7 @@ public class SurveyDaoImpl implements SurveyDao{
 		List<Survey> list = null;
 
 		//Set the data form database into Survey instance
-		//取得データをSurveyのインスタンスにセット
+
 		return list;
 	}
 	
