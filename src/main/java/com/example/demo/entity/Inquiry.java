@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 
 /*
  * This is completed in Easy mode. If you want to practice, please delete this file.
- * イージーモードではこちらは完成させてあります。作成を練習したい場合は一度ファイルごと削除してください。
  */
 public class Inquiry {
 	private int id;
