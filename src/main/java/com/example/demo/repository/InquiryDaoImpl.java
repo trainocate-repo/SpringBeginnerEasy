@@ -14,7 +14,6 @@ import com.example.demo.entity.Inquiry;
 
 /*
  * Add an annotation here
- * ここにアノテーションを追加
  */
 public class InquiryDaoImpl implements InquiryDao{
 	
@@ -31,7 +30,6 @@ public class InquiryDaoImpl implements InquiryDao{
 	}
 	
 //  This method is used in the latter chapter
-//  こちらは後の章で使用します
 //	@Override
 //	public int updateInquiry(Inquiry inquiry) {
 //		return jdbcTemplate.update("UPDATE inquiry SET name = ?, email = ?,contents = ? WHERE id = ?",
@@ -48,7 +46,6 @@ public class InquiryDaoImpl implements InquiryDao{
 		List<Inquiry> list = null;
 		
 		//Set the data form database into Inquiry instance
-		//取得データをInquiryのインスタンスにセット
 		
 		return list;
 	}
