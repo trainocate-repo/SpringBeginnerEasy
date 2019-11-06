@@ -10,16 +10,11 @@ import org.springframework.web.bind.annotation.InitBinder;
 
 import com.example.demo.service.InquiryNotFoundException;
 
-
-/**
- * 全てのControllerで共通処理を定義
- */
 @ControllerAdvice
 public class WebMvcControllerAdvice {
 
 	/*
 	 * This method changes empty character to null
-	 * こちらのメソッドを用意しておくと送信された空文字はnullに変換されます
 	 */
     @InitBinder
     public void initBinder(WebDataBinder dataBinder) {
